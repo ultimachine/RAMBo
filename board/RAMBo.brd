@@ -6329,7 +6329,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="102.108" y="85.09" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U4" library="untitled" package="TSSOP24" value="AD5206" x="51.1175" y="36.83" smashed="yes"/>
-<element name="R30" library="resistor" package="R0603" value="4.99K" x="45.59" y="34.13875" smashed="yes" rot="R270">
+<element name="R30" library="resistor" package="R0603" value="3.3K" x="45.59" y="34.13875" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.679" y="32.72775" size="0.8128" layer="25" rot="R270"/>
 </element>
 <element name="C55" library="resistor" package="C0603" value="100nF" x="45.72" y="39.1825" smashed="yes" rot="R90">
