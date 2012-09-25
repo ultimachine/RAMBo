@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.0635" altunitdist="mm" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="0.0635" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="2-GND" color="13" fill="3" visible="yes" active="yes"/>
@@ -275,6 +275,7 @@
 <rectangle x1="49.53" y1="17.145" x2="54.61" y2="24.765" layer="30"/>
 <rectangle x1="67.31" y1="17.145" x2="72.39" y2="24.765" layer="30"/>
 <rectangle x1="85.09" y1="17.145" x2="90.17" y2="24.765" layer="30"/>
+<text x="5.715" y="-4.445" size="1.778" layer="48">H1 3.81,3.81</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -5737,9 +5738,9 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*2+15*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="9mil 39mil 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 9mil"/>
-<param name="mdWireWire" value="7mil"/>
-<param name="mdWirePad" value="7mil"/>
-<param name="mdWireVia" value="7mil"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
 <param name="mdPadPad" value="7mil"/>
 <param name="mdPadVia" value="7mil"/>
 <param name="mdViaVia" value="7mil"/>
@@ -5952,7 +5953,7 @@ design rules under a new name.</description>
 <element name="C16" library="SmartPrj" package="C0603-ROUND" value="1uF" x="16.51" y="63.3095" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.24" y="63.8445" size="0.8128" layer="121"/>
 </element>
-<element name="U1" library="SmartPrj" package="MLF32" value="ATMEGA16U2-MUR" x="21.463" y="59.309" smashed="yes" rot="R90">
+<element name="U1" library="SmartPrj" package="MLF32" value="ATMEGA32U2-MUR" x="21.463" y="59.309" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.3759" y="55.3379" size="0.8128" layer="121"/>
 </element>
 <element name="ICSP1" library="SmartPrj" package="2X03" value="3x2M" x="24.5745" y="69.0245" smashed="yes">
