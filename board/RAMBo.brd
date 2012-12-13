@@ -307,7 +307,6 @@
 <circle x="27.3685" y="17.78" radius="0.1778" width="0.3556" layer="29"/>
 <circle x="18.7325" y="11.7475" radius="0.1778" width="0.3556" layer="29"/>
 <circle x="18.7325" y="9.8425" radius="0.1778" width="0.3556" layer="29"/>
-<circle x="18.7325" y="7.9375" radius="0.1778" width="0.3556" layer="29"/>
 <circle x="27.3685" y="15.875" radius="0.1778" width="0.3556" layer="29"/>
 <circle x="28.575" y="15.0495" radius="0.1778" width="0.3556" layer="29"/>
 <circle x="27.6225" y="13.6525" radius="0.1778" width="0.3556" layer="29"/>
@@ -428,6 +427,31 @@
 <text x="30.5435" y="63.373" size="0.6096" layer="121" rot="R90">RESET-EN</text>
 <text x="40.64" y="66.675" size="0.8128" layer="121">ICSP</text>
 <text x="22.86" y="65.405" size="0.8128" layer="121">ICSP1</text>
+<text x="10.795" y="6.985" size="1.27" layer="121">X MOTOR</text>
+<text x="26.035" y="6.985" size="1.27" layer="121">Y MOTOR</text>
+<text x="40.64" y="6.985" size="1.27" layer="121">Z MOTOR 1</text>
+<text x="53.34" y="6.985" size="1.27" layer="121">Z MOTOR 2</text>
+<text x="69.215" y="6.985" size="1.27" layer="121">E0 MOTOR</text>
+<text x="84.455" y="6.985" size="1.27" layer="121">E1 MOTOR</text>
+<text x="1.397" y="46.7995" size="0.8128" layer="121" rot="R90">X-MIN</text>
+<text x="16.256" y="47.3075" size="0.8128" layer="121">Y-MIN</text>
+<text x="24.13" y="48.895" size="0.8128" layer="121">Z-MIN</text>
+<text x="1.905" y="29.845" size="0.8128" layer="121" rot="R90">X-MAX</text>
+<text x="13.97" y="31.75" size="0.8128" layer="121">Y-MAX</text>
+<text x="22.225" y="31.75" size="0.8128" layer="121">Z-MAX</text>
+<text x="33.2105" y="31.877" size="0.8128" layer="121">I2C</text>
+<text x="73.66" y="56.515" size="0.8128" layer="121" rot="R90">PS-ON</text>
+<text x="93.345" y="55.245" size="0.8128" layer="121" rot="R90">T0</text>
+<text x="93.345" y="50.8" size="0.8128" layer="121" rot="R90">T1</text>
+<text x="93.345" y="42.545" size="0.8128" layer="121" rot="R90">T2</text>
+<text x="93.345" y="39.37" size="0.8128" layer="121" rot="R90">T3</text>
+<text x="5.461" y="86.6775" size="0.8128" layer="121">5V AUX OUT</text>
+<text x="94.6785" y="17.907" size="0.8128" layer="121">12V AUX</text>
+<text x="7.517" y="85.445" size="1.4224" layer="121" ratio="10">+</text>
+<text x="61.7855" y="46.6725" size="0.8128" layer="121" rot="R90">MX1</text>
+<text x="64.389" y="46.609" size="0.8128" layer="121" rot="R90">MX2</text>
+<text x="66.802" y="46.5455" size="0.8128" layer="121" rot="R90">MX3</text>
+<text x="35.6235" y="84.963" size="1.016" layer="121">FAN-2</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -6179,13 +6203,12 @@ design rules under a new name.</description>
 <element name="D5" library="diode" package="MINIMELF" value="CD1206-S01575" x="37.4015" y="70.1675" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.3185" y="67.5555" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="X8" library="con-phoenix-254" package="4POL254" value="XMotor" x="15.24" y="4.6482" smashed="yes" rot="R180">
+<element name="X8" library="con-phoenix-254" package="4POL254" value="C-GRID-04-70543" x="15.24" y="4.6482" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="15.24" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="15.24" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.24" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="15.24" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="22.479" y="4.7752" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="11.811" y="6.9088" size="1.27" layer="27"/>
 </element>
 <element name="R4" library="resistor" package="R1206" value="0r1" x="16.03375" y="11.1125" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.17675" y="12.5095" size="0.8128" layer="25" rot="R270"/>
@@ -6214,13 +6237,12 @@ design rules under a new name.</description>
 <element name="R18" library="resistor" package="R0603" value="0r" x="11.43" y="28.575" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.081" y="30.336" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="X4" library="con-phoenix-254" package="4POL254" value="YMotor" x="30.4125" y="4.6482" smashed="yes" rot="R180">
+<element name="X4" library="con-phoenix-254" package="4POL254" value="C-GRID-04-70543" x="30.4125" y="4.6482" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="30.4125" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="30.4125" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="30.4125" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="30.4125" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="37.6515" y="4.7752" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="27.1185" y="6.9088" size="1.27" layer="27"/>
 </element>
 <element name="R8" library="resistor" package="R1206" value="0r1" x="34.44875" y="11.1125" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.59175" y="12.5095" size="0.8128" layer="25" rot="R270"/>
@@ -6249,13 +6271,12 @@ design rules under a new name.</description>
 <element name="R12" library="resistor" package="R0603" value="0r" x="29.21" y="28.575" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.401" y="30.236" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="X14" library="con-phoenix-254" package="4POL254" value="ZMotor" x="45.6525" y="4.6482" smashed="yes" rot="R180">
+<element name="X14" library="con-phoenix-254" package="4POL254" value="C-GRID-04-70543" x="45.6525" y="4.6482" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="45.6525" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="45.6525" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="45.6525" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="45.6525" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.9865" y="2.2352" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="44.2635" y="6.9088" size="1.27" layer="27"/>
 </element>
 <element name="R14" library="resistor" package="R1206" value="0r1" x="54.13375" y="11.1125" smashed="yes" rot="R270">
 <attribute name="NAME" x="55.27675" y="12.5095" size="0.8128" layer="25" rot="R270"/>
@@ -6284,13 +6305,12 @@ design rules under a new name.</description>
 <element name="R17" library="resistor" package="R0603" value="0r" x="49.05375" y="28.575" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.55725" y="30.236" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="X6" library="con-phoenix-254" package="4POL254" value="E0Motor" x="73.5925" y="4.6482" smashed="yes" rot="R180">
+<element name="X6" library="con-phoenix-254" package="4POL254" value="C-GRID-04-70543" x="73.5925" y="4.6482" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="73.5925" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="73.5925" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="73.5925" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="73.5925" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.7265" y="4.9702" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="69.0285" y="6.9088" size="1.27" layer="27"/>
 </element>
 <element name="R19" library="resistor" package="R1206" value="0r1" x="71.91375" y="11.1125" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.05675" y="12.5095" size="0.8128" layer="25" rot="R270"/>
@@ -6319,13 +6339,12 @@ design rules under a new name.</description>
 <element name="R22" library="resistor" package="R0603" value="0r" x="68.58" y="28.575" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.871" y="30.436" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="X7" library="con-phoenix-254" package="4POL254" value="E1Motor" x="88.8325" y="4.6482" smashed="yes" rot="R180">
+<element name="X7" library="con-phoenix-254" package="4POL254" value="C-GRID-04-70543" x="88.8325" y="4.6482" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="88.8325" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="88.8325" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="88.8325" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="88.8325" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="95.8665" y="5.0702" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="84.9035" y="6.9088" size="1.27" layer="27"/>
 </element>
 <element name="R23" library="resistor" package="R1206" value="0r1" x="89.69375" y="11.1125" smashed="yes" rot="R270">
 <attribute name="NAME" x="90.83675" y="12.5095" size="0.8128" layer="25" rot="R270"/>
@@ -6354,53 +6373,47 @@ design rules under a new name.</description>
 <element name="R26" library="resistor" package="R0603" value="0r" x="86.36" y="28.575" smashed="yes" rot="R270">
 <attribute name="NAME" x="85.251" y="30.336" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="X21" library="con-molex" package="70543-03" value="Z_MIN" x="26.035" y="43.18" smashed="yes" rot="R180">
+<element name="X21" library="con-molex" package="70543-03" value="C-GRID-03-70543" x="26.035" y="43.18" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="26.035" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="26.035" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="26.035" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="26.035" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="21.445" y="40.585" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="24.0325" y="48.8125" size="0.8128" layer="27" ratio="10"/>
 </element>
-<element name="X22" library="con-molex" package="70543-03" value="Y_MIN" x="15.875" y="43.18" smashed="yes" rot="R180">
+<element name="X22" library="con-molex" package="70543-03" value="C-GRID-03-70543" x="15.875" y="43.18" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="15.875" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="15.875" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="15.875" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.875" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.14" y="41.18" size="0.8128" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="16.2925" y="47.3125" size="0.8128" layer="27" ratio="10"/>
 </element>
-<element name="X23" library="con-molex" package="70543-03" value="X_MIN" x="5.715" y="43.18" smashed="yes" rot="R180">
+<element name="X23" library="con-molex" package="70543-03" value="C-GRID-03-70543" x="5.715" y="43.18" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="5.715" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="5.715" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="5.715" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="5.715" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="1.9" y="41.38" size="0.8128" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="1.3525" y="46.7875" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X24" library="con-molex" package="70543-03" value="Z_MAX" x="26.035" y="36.83" smashed="yes">
+<element name="X24" library="con-molex" package="70543-03" value="C-GRID-03-70543" x="26.035" y="36.83" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="26.035" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="26.035" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="26.035" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="26.035" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.32" y="34.49" size="0.8128" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="22.3725" y="31.8225" size="0.8128" layer="27" ratio="10"/>
 </element>
-<element name="X25" library="con-molex" package="70543-03" value="Y_MAX" x="15.875" y="36.83" smashed="yes">
+<element name="X25" library="con-molex" package="70543-03" value="C-GRID-03-70543" x="15.875" y="36.83" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="15.875" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="15.875" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="15.875" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.875" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12.16" y="34.59" size="0.8128" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="14.3125" y="31.8225" size="0.8128" layer="27" ratio="10"/>
 </element>
-<element name="X26" library="con-molex" package="70543-03" value="X_MAX" x="5.715" y="36.83" smashed="yes">
+<element name="X26" library="con-molex" package="70543-03" value="C-GRID-03-70543" x="5.715" y="36.83" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="5.715" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="5.715" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="5.715" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="5.715" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="1.9" y="34.49" size="0.8128" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="1.8325" y="29.7875" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="H1" library="holes" package="3,0-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.0" x="3.81" y="3.81"/>
 <element name="H2" library="holes" package="3,0-PAD-SQUARE" value="MOUNT-PAD-SQUARE3.0" x="100.33" y="3.81"/>
@@ -6428,37 +6441,33 @@ design rules under a new name.</description>
 <element name="F2" library="ultimachine1" package="OMNI-BLOK" value="OMNI-BLOK" x="98.1075" y="47.625" smashed="yes" rot="R90">
 <attribute name="NAME" x="97.26" y="41.0175" size="0.8128" layer="25"/>
 </element>
-<element name="X27" library="con-molex" package="70543-02" value="T0" x="89.3175" y="58.933" smashed="yes" rot="R270">
+<element name="X27" library="con-molex" package="70543-02" value="C-GRID-02-70543" x="89.3175" y="58.933" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="89.3175" y="58.933" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="89.3175" y="58.933" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="89.3175" y="58.933" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="89.3175" y="58.933" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="87.9775" y="55.478" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="93.4435" y="54.686" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X28" library="con-molex" package="70543-02" value="T1" x="89.3175" y="51.059" smashed="yes" rot="R270">
+<element name="X28" library="con-molex" package="70543-02" value="C-GRID-02-70543" x="89.3175" y="51.059" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="89.3175" y="51.059" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="89.3175" y="51.059" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="89.3175" y="51.059" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="89.3175" y="51.059" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="87.9775" y="53.504" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="93.4105" y="49.549" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X29" library="con-molex" package="70543-02" value="T2" x="89.3175" y="43.185" smashed="yes" rot="R270">
+<element name="X29" library="con-molex" package="70543-02" value="C-GRID-02-70543" x="89.3175" y="43.185" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="89.3175" y="43.185" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="89.3175" y="43.185" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="89.3175" y="43.185" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="89.3175" y="43.185" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="87.9775" y="45.53" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="93.4245" y="44.062" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="X30" library="con-molex" package="70543-02" value="V++ Out" x="97.47875" y="22.7825" smashed="yes">
+<element name="X30" library="con-molex" package="70543-02" value="C-GRID-02-70543" x="97.47875" y="22.7825" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="97.47875" y="22.7825" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="97.47875" y="22.7825" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="97.47875" y="22.7825" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="97.47875" y="22.7825" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="96.2425" y="19.46625" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="94.44625" y="17.935" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="X33" library="con-phoenix-508" package="MSTBA6" value="MSTBA6" x="100.838" y="73.66" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="71C4165" x="100.838" y="73.66" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6539,15 +6548,9 @@ design rules under a new name.</description>
 <element name="R43" library="resistor" package="R0603" value="100K" x="19.3675" y="74.93" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.7135" y="76.741" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="X20" library="SparkFun" package="1X05" value="MX1" x="61.42" y="34.925" smashed="yes" rot="R90">
-<attribute name="VALUE" x="61.595" y="46.655" size="0.8128" layer="27" rot="R90"/>
-</element>
-<element name="X31" library="SparkFun" package="1X05" value="MX2" x="63.96" y="34.925" smashed="yes" rot="R90">
-<attribute name="VALUE" x="64.135" y="46.555" size="0.8128" layer="27" rot="R90"/>
-</element>
-<element name="X32" library="SparkFun" package="1X05" value="MX3" x="66.5" y="34.925" smashed="yes" rot="R90">
-<attribute name="VALUE" x="66.675" y="46.655" size="0.8128" layer="27" rot="R90"/>
-</element>
+<element name="X20" library="SparkFun" package="1X05" value="M05PTH" x="61.42" y="34.925" smashed="yes" rot="R90"/>
+<element name="X31" library="SparkFun" package="1X05" value="M05PTH" x="63.96" y="34.925" smashed="yes" rot="R90"/>
+<element name="X32" library="SparkFun" package="1X05" value="M05PTH" x="66.5" y="34.925" smashed="yes" rot="R90"/>
 <element name="R44" library="resistor" package="R0603" value="10K" x="40.3225" y="48.15875" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.0885" y="47.90025" size="0.8128" layer="25"/>
 </element>
@@ -6639,13 +6642,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="66.1575" y="62.457" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="67.3805" y="69.0775" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="X1" library="con-molex" package="70543-02" value="5V Out" x="4.28625" y="91.91625" smashed="yes">
+<element name="X1" library="con-molex" package="70543-02" value="C-GRID-02-70543" x="4.28625" y="91.91625" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="4.28625" y="91.91625" size="1.4224" layer="27" display="off"/>
 <attribute name="MPN" value="" x="4.28625" y="91.91625" size="1.4224" layer="27" display="off"/>
 <attribute name="MF" value="" x="4.28625" y="91.91625" size="1.4224" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="4.28625" y="91.91625" size="1.4224" layer="27" display="off"/>
 <attribute name="NAME" x="8.09625" y="87.78875" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="5.99375" y="86.37375" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="TP3" library="testpad" package="B1,27" value="PTR1B1,27" x="8.5725" y="24.4475" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="7.9375" y="22.5425" size="1" layer="37"/>
@@ -6764,13 +6766,12 @@ design rules under a new name.</description>
 <element name="R64" library="rcl" package="R0603" value="53.6K" x="70.96125" y="85.471" smashed="yes" rot="R180">
 <attribute name="NAME" x="67.25925" y="84.9645" size="0.8128" layer="25"/>
 </element>
-<element name="X10" library="con-molex" package="70543-04" value="I2C" x="34.39" y="39.6675" smashed="yes" rot="R90">
+<element name="X10" library="con-molex" package="70543-04" value="C-GRID-04-70543" x="34.39" y="39.6675" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="34.39" y="39.6675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="34.39" y="39.6675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="34.39" y="39.6675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="34.39" y="39.6675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.1" y="33.9175" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="33.255" y="31.9525" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="R1" library="rcl" package="R0402" value="22R" x="14.605" y="57.30875" smashed="yes">
 <attribute name="NAME" x="16.37" y="57.04375" size="0.8128" layer="25"/>
@@ -6784,33 +6785,30 @@ design rules under a new name.</description>
 <element name="C2" library="rcl" package="C0805" value="10uF" x="15.39875" y="49.37125" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.26875" y="48.20125" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="X15" library="con-phoenix-254" package="4POL254" value="ZMotor" x="58.3525" y="4.6482" smashed="yes" rot="R180">
+<element name="X15" library="con-phoenix-254" package="4POL254" value="C-GRID-04-70543" x="58.3525" y="4.6482" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="58.3525" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="58.3525" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="58.3525" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="58.3525" y="4.6482" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="65.9865" y="4.7702" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="53.7885" y="6.9088" size="1.27" layer="27"/>
 </element>
-<element name="X5" library="con-molex" package="70543-02" value="PS-ON" x="77.86" y="59.58" smashed="yes" rot="R270">
+<element name="X5" library="con-molex" package="70543-02" value="C-GRID-02-70543" x="77.86" y="59.58" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="77.86" y="59.58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="77.86" y="59.58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="77.86" y="59.58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="77.86" y="59.58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="81.2255" y="62.247" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="72.7675" y="60.7675" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="TP24" library="adafruit" package="1X01" value="GND" x="101.99" y="93.12" smashed="yes">
 <attribute name="NAME" x="100.2562" y="92.0288" size="0.8128" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="100.72" y="89.945" size="1.27" layer="27"/>
 </element>
-<element name="X3" library="con-molex" package="70543-02" value="T3" x="89.3175" y="35.311" smashed="yes" rot="R270">
+<element name="X3" library="con-molex" package="70543-02" value="C-GRID-02-70543" x="89.3175" y="35.311" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="89.3175" y="35.311" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="89.3175" y="35.311" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="89.3175" y="35.311" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="89.3175" y="35.311" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="88.0475" y="37.851" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="93.402" y="39.3015" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R27" library="resistor" package="R0603" value="4K7" x="82.84" y="36.74" smashed="yes">
 <attribute name="NAME" x="80.871" y="35.851" size="0.8128" layer="25" rot="R90"/>
@@ -6936,13 +6934,12 @@ design rules under a new name.</description>
 <element name="C62" library="rcl" package="C0603" value="." x="72.009" y="90.043" smashed="yes" rot="R270">
 <attribute name="NAME" x="72.644" y="91.313" size="0.8128" layer="25" rot="R270"/>
 </element>
-<element name="X9" library="con-molex" package="70543-02" value="Fan 2" x="42.9895" y="81.788" smashed="yes">
+<element name="X9" library="con-molex" package="70543-02" value="C-GRID-02-70543" x="42.9895" y="81.788" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="42.9895" y="81.788" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="42.9895" y="81.788" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="42.9895" y="81.788" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="42.9895" y="81.788" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="38.9255" y="81.9785" size="0.8128" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="35.433" y="84.963" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="Q8" library="SparkFun" package="SOT23-3" value="IRLML6346TRPBF" x="42.1005" y="76.1365" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.8145" y="76.7715" size="0.8128" layer="25"/>
