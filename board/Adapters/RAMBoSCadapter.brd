@@ -134,7 +134,7 @@
 <wire x1="6.985" y1="1.905" x2="8.89" y2="0" width="0.2032" layer="20"/>
 <wire x1="8.89" y1="0" x2="18.415" y2="0" width="0.2032" layer="20"/>
 <wire x1="18.415" y1="0" x2="20.32" y2="1.905" width="0.2032" layer="20"/>
-<text x="2.54" y="25.4" size="0.8128" layer="121">RAMBo to SmartController adapter</text>
+<text x="1.905" y="25.4" size="0.8128" layer="121">RAMBo to SmartController adapter</text>
 <text x="10.16" y="27.305" size="0.8128" layer="121">reprap.org/wiki/RamboLCD</text>
 <text x="30.125" y="20.625" size="1.524" layer="121">U</text>
 <circle x="30.66" y="21.46" radius="1.0668" width="0.127" layer="121"/>
@@ -142,6 +142,7 @@
 <wire x1="27.305" y1="29.845" x2="27.559" y2="30.099" width="0.2032" layer="20"/>
 <wire x1="27.559" y1="30.099" x2="51.816" y2="30.099" width="0.2032" layer="20"/>
 <wire x1="51.816" y1="30.099" x2="53.975" y2="27.94" width="0.2032" layer="20"/>
+<text x="24.13" y="25.4" size="0.8128" layer="121">1.0a</text>
 </plain>
 <libraries>
 <library name="SmartPrj">
