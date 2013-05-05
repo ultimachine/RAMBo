@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -44,7 +44,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
@@ -122,8 +122,8 @@
 <text x="103.07" y="9.245" size="1.016" layer="121" rot="R90">Open Source Hardware by</text>
 <text x="65.786" y="50.8" size="1.9304" layer="121" ratio="12">RAMBo</text>
 <text x="102.87" y="31.36575" size="1.4224" layer="121" ratio="12" rot="R90">UltiMachine.com</text>
-<dimension x1="0" y1="0" x2="104.14" y2="0" x3="52.07" y3="-19.685" layer="47"/>
-<dimension x1="0" y1="102.87" x2="0" y2="0" x3="-11.43" y3="51.435" layer="47" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="104.14" y2="0" x3="52.07" y3="-19.685" textsize="3.5" layer="47"/>
+<dimension x1="0" y1="102.87" x2="0" y2="0" x3="-11.43" y3="51.435" textsize="3.5" layer="47" dtype="vertical"/>
 <text x="13.3" y="23.5" size="1.778" layer="121">X</text>
 <text x="31.7" y="23.5" size="1.778" layer="121">Y</text>
 <text x="51.4" y="23.5" size="1.778" layer="121">Z</text>
@@ -204,8 +204,7 @@
 <text x="98.908" y="75.4" size="1.778" layer="121" ratio="10">-</text>
 <text x="98.708" y="85.5" size="1.778" layer="121" ratio="10">-</text>
 <wire x1="22.86" y1="0" x2="22.86" y2="6.985" width="0.2032" layer="121"/>
-<wire x1="38.1" y1="0" x2="38.1" y2="6.35" width="0.2032" layer="121"/>
-<wire x1="38.1" y1="6.35" x2="38.1" y2="6.985" width="0.2032" layer="121"/>
+<wire x1="38.1" y1="0" x2="38.1" y2="6.985" width="0.2032" layer="121"/>
 <wire x1="66.04" y1="0" x2="66.04" y2="6.985" width="0.2032" layer="121"/>
 <wire x1="81.28" y1="0" x2="81.28" y2="6.985" width="0.2032" layer="121"/>
 <text x="20.32" y="0.635" size="1.27" layer="121" ratio="10">X</text>
@@ -240,9 +239,9 @@
 <wire x1="39.37" y1="98.425" x2="39.37" y2="102.87" width="0.2032" layer="121"/>
 <wire x1="49.276" y1="98.3615" x2="49.276" y2="102.8065" width="0.2032" layer="121"/>
 <text x="38.735" y="0.635" size="1.27" layer="121" ratio="10">Z</text>
-<dimension x1="3.81" y1="3.81" x2="100.33" y2="3.81" x3="52.07" y3="-6.985" layer="48"/>
-<dimension x1="3.81" y1="99.06" x2="3.81" y2="3.81" x3="-5.715" y3="51.435" layer="48"/>
-<text x="5.715" y="-4.445" size="1.778" layer="48">H1 3.81,3.81</text>
+<dimension x1="3.81" y1="3.81" x2="100.33" y2="3.81" x3="52.07" y3="-6.985" textsize="3.5" layer="47"/>
+<dimension x1="3.81" y1="99.06" x2="3.81" y2="3.81" x3="-5.715" y3="51.435" textsize="3.5" layer="47"/>
+<text x="5.715" y="-4.445" size="1.778" layer="47">H1 3.81,3.81</text>
 <polygon width="0.2032" layer="41">
 <vertex x="94.3745" y="75.02"/>
 <vertex x="96.7745" y="75.02" curve="90"/>
@@ -2597,6 +2596,25 @@ Source: WE-TPC 744053220.pdf</description>
 <wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 <rectangle x1="-1.7" y1="-1.7" x2="1.7" y2="1.7" layer="29"/>
+</package>
+<package name="SJ-NOSTOP">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" stop="no" cream="no"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -5929,7 +5947,7 @@ Source: WE-TPC 744053220.pdf</description>
 <clearance class="3" value="0.1778"/>
 </class>
 </classes>
-<designrules>
+<designrules name="ArduRap4layerExport">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -5984,9 +6002,9 @@ design rules under a new name.</description>
 <param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="0.2"/>
+<param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0.1"/>
-<param name="mlMinStopFrame" value="3mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="1mil"/>
 <param name="mlMaxCreamFrame" value="4mil"/>
@@ -6168,10 +6186,6 @@ design rules under a new name.</description>
 </element>
 <element name="Z2" library="varistor" package="CT/CN0603" value="CG0603MLC-05E" x="14.605" y="61.214" smashed="yes">
 <attribute name="NAME" x="16.289" y="60.79" size="0.8128" layer="121"/>
-</element>
-<element name="JP3" library="jumper" package="SJ" value="" x="13.335" y="53.34" smashed="yes" rot="MR180">
-<attribute name="NAME" x="5.969" y="54.737" size="1.27" layer="50" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="13.7351" y="53.34" size="0.02" layer="28" rot="MR180"/>
 </element>
 <element name="RN5" library="resistor-dil" package="CAY16" value="1k" x="28.575" y="52.1335" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.6635" y="49.5855" size="0.8128" layer="121"/>
@@ -6952,6 +6966,9 @@ design rules under a new name.</description>
 </element>
 <element name="FID1" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="4.1275" y="87.122"/>
 <element name="FID6" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="94.1705" y="8.89"/>
+<element name="JP3" library="ultimachine" package="SJ-NOSTOP" value="" x="13.335" y="53.34" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="13.7351" y="53.34" size="0.02" layer="28" rot="MR180"/>
+</element>
 </elements>
 <signals>
 <signal name="AREF">
@@ -8084,7 +8101,6 @@ design rules under a new name.</description>
 <contactref element="C13" pad="2"/>
 <contactref element="C15" pad="2"/>
 <contactref element="C11" pad="2"/>
-<contactref element="JP3" pad="2"/>
 <contactref element="C14" pad="2"/>
 <contactref element="U1" pad="33"/>
 <contactref element="U1" pad="3"/>
@@ -9011,6 +9027,7 @@ design rules under a new name.</description>
 <wire x1="52.959" y1="73.914" x2="53.34" y2="73.914" width="0.2032" layer="1"/>
 <via x="75.08875" y="59.69" extent="1-16" drill="0.381"/>
 <via x="48.65225" y="55.653" extent="1-16" drill="0.381"/>
+<contactref element="JP3" pad="2"/>
 </signal>
 <signal name="VCC">
 <contactref element="U4" pad="P06"/>
@@ -12950,7 +12967,6 @@ design rules under a new name.</description>
 <contactref element="L2" pad="1"/>
 <contactref element="U1" pad="28"/>
 <contactref element="C16" pad="2"/>
-<contactref element="JP3" pad="1"/>
 <wire x1="9.06" y1="57.17" x2="7.4025" y2="58.8275" width="0.6096" layer="1"/>
 <wire x1="7.4025" y1="58.8275" x2="7.4025" y2="60.6425" width="0.6096" layer="1"/>
 <wire x1="12.573" y1="53.34" x2="11.43" y2="53.34" width="0.6096" layer="16"/>
@@ -12972,6 +12988,7 @@ design rules under a new name.</description>
 <wire x1="12.4665" y1="64.77" x2="11.34575" y2="64.77" width="0.4064" layer="1"/>
 <wire x1="7.4025" y1="60.6425" x2="7.4025" y2="60.82675" width="0.6096" layer="1"/>
 <wire x1="7.4025" y1="60.82675" x2="11.34575" y2="64.77" width="0.6096" layer="1"/>
+<contactref element="JP3" pad="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="U3" pad="6"/>
