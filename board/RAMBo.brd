@@ -8,11 +8,11 @@
 </settings>
 <grid distance="0.635" unitdist="mm" unit="mil" style="lines" multiple="1" display="no" altdistance="0.0635" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="2-GND" color="13" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="2-GND" color="13" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="15-SUPPLY" color="11" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="15-SUPPLY" color="11" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -2655,14 +2655,6 @@ Source: ADG658_659.pdf</description>
 <smd name="P$6" x="-1.7145" y="1.7145" dx="1.27" dy="1.27" layer="1" roundness="100" thermals="no"/>
 <smd name="P$7" x="1.7145" y="-1.7145" dx="1.27" dy="1.27" layer="1" roundness="100" thermals="no"/>
 <smd name="P$8" x="-1.7145" y="-1.7145" dx="1.27" dy="1.27" layer="1" roundness="100" thermals="no"/>
-<smd name="P$9" x="2.413" y="0" dx="1.27" dy="1.27" layer="16" roundness="100" thermals="no"/>
-<smd name="P$10" x="0" y="2.413" dx="1.27" dy="1.27" layer="16" roundness="100" thermals="no"/>
-<smd name="P$11" x="-1.7145" y="1.7145" dx="1.27" dy="1.27" layer="16" roundness="100" thermals="no"/>
-<smd name="P$12" x="-2.413" y="0" dx="1.27" dy="1.27" layer="16" roundness="100" thermals="no"/>
-<smd name="P$13" x="1.7145" y="1.7145" dx="1.27" dy="1.27" layer="16" roundness="100" thermals="no"/>
-<smd name="P$14" x="-1.7145" y="-1.7145" dx="1.27" dy="1.27" layer="16" roundness="100" thermals="no"/>
-<smd name="P$15" x="0" y="-2.413" dx="1.27" dy="1.27" layer="16" roundness="100" thermals="no"/>
-<smd name="P$16" x="1.7145" y="-1.7145" dx="1.27" dy="1.27" layer="16" roundness="100" thermals="no"/>
 <circle x="0" y="0" radius="1.606434375" width="0.127" layer="39"/>
 <circle x="0" y="0" radius="1.55023125" width="0.127" layer="40"/>
 <pad name="P$17" x="-2.2479" y="0.93345" drill="0.381" diameter="1.27" rot="R315" stop="no" thermals="no"/>
@@ -8961,68 +8953,36 @@ design rules under a new name.</description>
 <wire x1="55.4355" y1="33.4645" x2="55.4355" y2="35.179" width="0.2032" layer="1"/>
 <contactref element="H1" pad="P$4"/>
 <contactref element="H1" pad="P$6"/>
-<contactref element="H1" pad="P$15"/>
 <contactref element="H1" pad="P$1"/>
-<contactref element="H1" pad="P$12"/>
-<contactref element="H1" pad="P$9"/>
 <contactref element="H1" pad="P$2"/>
-<contactref element="H1" pad="P$16"/>
 <contactref element="H1" pad="P$5"/>
-<contactref element="H1" pad="P$13"/>
-<contactref element="H1" pad="P$10"/>
 <contactref element="H1" pad="P$8"/>
 <contactref element="H1" pad="P$3"/>
 <contactref element="H1" pad="P$7"/>
-<contactref element="H1" pad="P$14"/>
-<contactref element="H1" pad="P$11"/>
 <contactref element="H2" pad="P$4"/>
 <contactref element="H2" pad="P$6"/>
-<contactref element="H2" pad="P$15"/>
 <contactref element="H2" pad="P$1"/>
-<contactref element="H2" pad="P$12"/>
-<contactref element="H2" pad="P$9"/>
 <contactref element="H2" pad="P$2"/>
-<contactref element="H2" pad="P$16"/>
 <contactref element="H2" pad="P$5"/>
-<contactref element="H2" pad="P$13"/>
-<contactref element="H2" pad="P$10"/>
 <contactref element="H2" pad="P$8"/>
 <contactref element="H2" pad="P$3"/>
 <contactref element="H2" pad="P$7"/>
-<contactref element="H2" pad="P$14"/>
-<contactref element="H2" pad="P$11"/>
 <contactref element="H3" pad="P$4"/>
 <contactref element="H3" pad="P$6"/>
-<contactref element="H3" pad="P$15"/>
 <contactref element="H3" pad="P$1"/>
-<contactref element="H3" pad="P$12"/>
-<contactref element="H3" pad="P$9"/>
 <contactref element="H3" pad="P$2"/>
-<contactref element="H3" pad="P$16"/>
 <contactref element="H3" pad="P$5"/>
-<contactref element="H3" pad="P$13"/>
-<contactref element="H3" pad="P$10"/>
 <contactref element="H3" pad="P$8"/>
 <contactref element="H3" pad="P$3"/>
 <contactref element="H3" pad="P$7"/>
-<contactref element="H3" pad="P$14"/>
-<contactref element="H3" pad="P$11"/>
 <contactref element="H4" pad="P$4"/>
 <contactref element="H4" pad="P$6"/>
-<contactref element="H4" pad="P$15"/>
 <contactref element="H4" pad="P$1"/>
-<contactref element="H4" pad="P$12"/>
-<contactref element="H4" pad="P$9"/>
 <contactref element="H4" pad="P$2"/>
-<contactref element="H4" pad="P$16"/>
 <contactref element="H4" pad="P$5"/>
-<contactref element="H4" pad="P$13"/>
-<contactref element="H4" pad="P$10"/>
 <contactref element="H4" pad="P$8"/>
 <contactref element="H4" pad="P$3"/>
 <contactref element="H4" pad="P$7"/>
-<contactref element="H4" pad="P$14"/>
-<contactref element="H4" pad="P$11"/>
 <polygon width="0.2032" layer="15" rank="4">
 <vertex x="0" y="102.87"/>
 <vertex x="104.14" y="102.87"/>
@@ -9148,6 +9108,7 @@ design rules under a new name.</description>
 <via x="1.016" y="41.8555" extent="1-16" drill="0.381"/>
 <via x="5.0275" y="0.9525" extent="1-16" drill="0.381"/>
 <via x="35.21075" y="53.7845" extent="1-16" drill="0.381"/>
+<via x="4.7625" y="80.6525" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="VCC">
 <contactref element="U4" pad="P06"/>
