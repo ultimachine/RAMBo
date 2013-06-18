@@ -9,10 +9,10 @@
 <grid distance="0.635" unitdist="mm" unit="mil" style="lines" multiple="1" display="no" altdistance="0.0635" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="2-GND" color="13" fill="3" visible="no" active="yes"/>
+<layer number="2" name="2-GND" color="13" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="15-SUPPLY" color="11" fill="6" visible="no" active="yes"/>
+<layer number="15" name="15-SUPPLY" color="11" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -518,6 +518,18 @@ TXT -- Drill 2.4 leading suppression</text>
 <circle x="44.1325" y="22.5425" radius="0.1778" width="0.3556" layer="29"/>
 <circle x="44.1325" y="24.4475" radius="0.1778" width="0.3556" layer="29"/>
 <circle x="46.0375" y="24.4475" radius="0.1778" width="0.3556" layer="29"/>
+<wire x1="48.26" y1="89.535" x2="59.69" y2="89.535" width="0.4064" layer="48"/>
+<wire x1="59.69" y1="89.535" x2="59.69" y2="82.55" width="0.4064" layer="48"/>
+<wire x1="59.69" y1="82.55" x2="48.26" y2="82.55" width="0.4064" layer="48"/>
+<wire x1="48.26" y1="82.55" x2="48.26" y2="89.535" width="0.4064" layer="48"/>
+<text x="48.895" y="84.455" size="1.016" layer="48">Add UL logo
+and code</text>
+<wire x1="60.325" y1="83.82" x2="66.2305" y2="83.82" width="0.4064" layer="48"/>
+<wire x1="66.2305" y1="83.82" x2="66.2305" y2="79.3115" width="0.4064" layer="48"/>
+<wire x1="66.2305" y1="79.3115" x2="60.325" y2="79.3115" width="0.4064" layer="48"/>
+<wire x1="60.325" y1="79.3115" x2="60.325" y2="83.82" width="0.4064" layer="48"/>
+<text x="61.595" y="80.645" size="1.016" layer="48">RoHS
+logo</text>
 </plain>
 <libraries>
 <library name="rcl">
