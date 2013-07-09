@@ -206,18 +206,18 @@ const uint8_t PROGMEM digital_pin_to_port_PGM[] = {
 	PK	, // PK 5 ** 67 ** A13	
 	PK	, // PK 6 ** 68 ** A14	
 	PK	, // PK 7 ** 69 ** A15
-	PG 	, // PG 4 ** 70 ** D50
-	PG 	, // PG 3 ** 71 ** D51
-	PJ 	, // PJ 2 ** 72 ** D52
-	PJ 	, // PJ 3 ** 73 ** D53
-	PJ 	, // PJ 7 ** 74 ** D54
-	PJ 	, // PJ 4 ** 75 ** D55
-	PJ 	, // PJ 5 ** 76 ** D56
-	PJ 	, // PJ 6 ** 77 ** D57
-	PE 	, // PE 2 ** 78 ** D58
-	PE 	, // PE 6 ** 79 ** D59
-	PE 	, // PE 7 ** 80 ** D60
-	PD 	, // PD 4 ** 81 ** D61		
+	PG 	, // PG 4 ** 70 ** D70
+	PG 	, // PG 3 ** 71 ** D71
+	PJ 	, // PJ 2 ** 72 ** D72
+	PJ 	, // PJ 3 ** 73 ** D73
+	PJ 	, // PJ 7 ** 74 ** D74
+	PJ 	, // PJ 4 ** 75 ** D75
+	PJ 	, // PJ 5 ** 76 ** D76
+	PJ 	, // PJ 6 ** 77 ** D77
+	PE 	, // PE 2 ** 78 ** D78
+	PE 	, // PE 6 ** 79 ** D79
+	PE 	, // PE 7 ** 80 ** D80
+	PD 	, // PD 4 ** 81 ** D81		
 };
 
 const uint8_t PROGMEM digital_pin_to_bit_mask_PGM[] = {
