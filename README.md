@@ -1,7 +1,5 @@
-RAMBo
+RAMBo 3D Printer electronics
 =====
-
-3D Printer electronics
 
 This board is based off the Arduino MEGA design and work of RepRap community. It has 5 stepper drivers and 5 mosfet switched outputs.
 
