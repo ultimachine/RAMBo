@@ -218,6 +218,10 @@ const uint8_t PROGMEM digital_pin_to_port_PGM[] = {
 	PE 	, // PE 6 ** 79 ** D79
 	PE 	, // PE 7 ** 80 ** D80
 	PD 	, // PD 4 ** 81 ** D81
+	PD 	, // PD 5 ** 82 ** D82
+	PD 	, // PD 6 ** 83 ** D83
+	PH 	, // PH 2 ** 84 ** D84
+	PH 	, // PH 7 ** 85 ** D85
 };
 
 const uint8_t PROGMEM digital_pin_to_bit_mask_PGM[] = {
@@ -305,6 +309,10 @@ const uint8_t PROGMEM digital_pin_to_bit_mask_PGM[] = {
 	_BV( 6 )	, // PE 6 ** 79 ** D79
 	_BV( 7 )	, // PE 7 ** 80 ** D80
 	_BV( 4 )	, // PD 4 ** 81 ** D81
+	_BV( 5 ) 	, // PD 5 ** 82 ** D82
+	_BV( 6 ) 	, // PD 6 ** 83 ** D83
+	_BV( 2 ) 	, // PH 2 ** 84 ** D84
+	_BV( 7 ) 	, // PH 7 ** 85 ** D85
 };
 
 const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
@@ -392,6 +400,10 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 	NOT_ON_TIMER	, // PE 6 ** 79 ** D79
 	NOT_ON_TIMER	, // PE 7 ** 80 ** D80
 	NOT_ON_TIMER	, // PD 4 ** 81 ** D81
+	NOT_ON_TIMER 	, // PD 5 ** 82 ** D82
+	NOT_ON_TIMER 	, // PD 6 ** 83 ** D83
+	NOT_ON_TIMER 	, // PH 2 ** 84 ** D84
+	NOT_ON_TIMER 	, // PH 7 ** 85 ** D85
 };
 
 #endif
