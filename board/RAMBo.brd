@@ -7257,10 +7257,10 @@ design rules under a new name.</description>
 <element name="C45" library="rcl" package="C2220K" value="10uF" x="81.7245" y="86.9315" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.417" y="90.707" size="0.8128" layer="25"/>
 </element>
-<element name="R11" library="rcl" package="R0603" value="1K" x="71.628" y="72.009" smashed="yes">
+<element name="R11" library="rcl" package="R0603" value="NP" x="71.628" y="72.009" smashed="yes">
 <attribute name="NAME" x="70.5485" y="72.771" size="0.8128" layer="25"/>
 </element>
-<element name="R13" library="rcl" package="R0603" value="2.87K" x="68.1355" y="72.644" smashed="yes" rot="R180">
+<element name="R13" library="rcl" package="R0603" value="NP" x="68.1355" y="72.644" smashed="yes" rot="R180">
 <attribute name="NAME" x="67.818" y="74.2315" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="D20" library="ultimachine1" package="SMA-SM" value="SK310A-TP" x="79.6925" y="80.772" smashed="yes">
@@ -11232,9 +11232,9 @@ design rules under a new name.</description>
 <wire x1="79.756" y1="83.5025" x2="80.5815" y2="84.328" width="1.4224" layer="1"/>
 <wire x1="80.5815" y1="84.328" x2="81.671" y2="84.328" width="1.4224" layer="1"/>
 <wire x1="81.671" y1="84.328" x2="81.7245" y2="84.3815" width="1.4224" layer="1"/>
-<wire x1="77.7748" y1="76.7715" x2="78.994" y2="76.7715" width="0.6096" layer="1"/>
-<wire x1="78.994" y1="76.7715" x2="79.3115" y2="77.089" width="0.6096" layer="1"/>
-<wire x1="79.3115" y1="77.089" x2="79.3115" y2="77.9145" width="0.6096" layer="1"/>
+<wire x1="77.7748" y1="76.7715" x2="79.121" y2="76.7715" width="0.6096" layer="1"/>
+<wire x1="79.121" y1="76.7715" x2="79.3115" y2="77.0255" width="0.6096" layer="1"/>
+<wire x1="79.3115" y1="77.0255" x2="79.3115" y2="77.9145" width="0.6096" layer="1"/>
 <wire x1="79.3115" y1="77.9145" x2="79.756" y2="78.359" width="0.6096" layer="1"/>
 <wire x1="85.979" y1="69.215" x2="83.7565" y2="71.4375" width="0.2032" layer="1"/>
 <wire x1="83.7565" y1="71.4375" x2="83.4925" y2="71.4375" width="0.2032" layer="1"/>
@@ -14200,9 +14200,11 @@ design rules under a new name.</description>
 <wire x1="72.8472" y1="74.2315" x2="72.7075" y2="74.2315" width="0.6096" layer="1"/>
 <wire x1="72.7075" y1="74.2315" x2="70.778" y2="72.302" width="0.6096" layer="1"/>
 <wire x1="70.778" y1="72.302" x2="70.778" y2="72.009" width="0.6096" layer="1"/>
-<wire x1="68.9855" y1="72.644" x2="69.7865" y2="72.644" width="0.6096" layer="1"/>
+<wire x1="68.9855" y1="72.644" x2="69.0245" y2="72.644" width="0.6096" layer="1"/>
+<wire x1="69.0245" y1="72.644" x2="69.7865" y2="72.644" width="0.6096" layer="1"/>
 <wire x1="69.7865" y1="72.644" x2="70.4215" y2="72.009" width="0.6096" layer="1"/>
 <wire x1="70.4215" y1="72.009" x2="70.778" y2="72.009" width="0.6096" layer="1"/>
+<wire x1="67.3735" y1="72.644" x2="69.0245" y2="72.644" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$165">
 <contactref element="C35" pad="2"/>
