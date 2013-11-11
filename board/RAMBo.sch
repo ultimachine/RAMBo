@@ -62110,33 +62110,32 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="276.86" y="182.88" size="1.778" layer="97">9</text>
 <text x="284.48" y="190.5" size="1.778" layer="97">15</text>
 <text x="284.48" y="193.04" size="1.778" layer="97">14</text>
-<text x="716.28" y="106.68" size="3.81" layer="97">Motor Extensions</text>
+<text x="718.82" y="109.22" size="3.81" layer="97">Motor Extensions</text>
 <text x="726.44" y="208.28" size="3.81" layer="97">SPI Extension</text>
-<text x="652.78" y="66.04" size="3.81" layer="97">PWM Extension</text>
+<text x="657.86" y="66.04" size="3.81" layer="97">PWM Extension</text>
 <text x="309.88" y="115.57" size="3.81" layer="97">X</text>
 <text x="422.91" y="113.03" size="3.81" layer="97">Y</text>
 <text x="530.86" y="114.3" size="3.81" layer="97">Z</text>
 <text x="308.61" y="44.45" size="3.81" layer="97">E0</text>
 <text x="419.1" y="45.72" size="3.81" layer="97">E1</text>
-<text x="251.46" y="330.2" size="6.4516" layer="97">Rambo 1.2</text>
-<text x="434.34" y="322.58" size="3.81" layer="97">Atmega 32u2 USB</text>
-<text x="721.36" y="157.48" size="3.81" layer="97">I2C expansion</text>
-<text x="261.62" y="154.94" size="3.81" layer="97">Atmega2560 programmer</text>
-<text x="650.24" y="266.7" size="3.81" layer="97">Power In</text>
-<text x="665.48" y="322.58" size="3.81" layer="97">Power Supply</text>
-<text x="254" y="127" size="3.81" layer="97">Stepper motor drivers</text>
+<text x="251.46" y="330.2" size="6.4516" layer="97">RAMBo 1.2e</text>
+<text x="518.16" y="322.58" size="3.81" layer="97">Atmega 32u2 USB</text>
+<text x="723.9" y="157.48" size="3.81" layer="97">I2C Expansion</text>
+<text x="261.62" y="154.94" size="3.81" layer="97">Atmega2560 Programmer</text>
+<text x="698.5" y="266.7" size="3.81" layer="97">Power In</text>
+<text x="693.42" y="322.58" size="3.81" layer="97">Power Supply</text>
+<text x="391.16" y="127" size="3.81" layer="97">Stepper Motor Drivers</text>
 <text x="525.78" y="48.26" size="3.81" layer="97">Digipot</text>
-<text x="594.36" y="172.72" size="3.81" layer="97">Thermistors</text>
-<text x="439.42" y="220.98" size="3.81" layer="97">Mosfets</text>
+<text x="601.98" y="172.72" size="3.81" layer="97">Thermistors</text>
+<text x="530.86" y="223.52" size="3.81" layer="97">Mosfets</text>
 <text x="734.06" y="233.68" size="3.81" layer="97">Aux Power Out</text>
 <text x="548.64" y="330.2" size="2.667" layer="91">Design by Johnny Russell - UltiMachine</text>
-<text x="721.36" y="266.7" size="1.9304" layer="97">Logic Power Select</text>
 <text x="754.38" y="43.18" size="1.6764" layer="97">24</text>
 <text x="754.38" y="45.72" size="1.6764" layer="97">30</text>
 <text x="754.38" y="48.26" size="1.6764" layer="97">46</text>
 <text x="645.16" y="330.2" size="2.667" layer="91">Based on work by the Arduino Team and the RepRap project.</text>
 <text x="312.42" y="330.2" size="3.81" layer="97">(R)epRap (A)rduino-(M)ega-compatible (M)other (Bo)ard</text>
-<text x="652.78" y="106.68" size="3.81" layer="97">Serial Extension</text>
+<text x="652.78" y="109.22" size="3.81" layer="97">Serial Extension</text>
 <wire x1="647.7" y1="327.66" x2="647.7" y2="271.78" width="0.1524" layer="97"/>
 <wire x1="647.7" y1="271.78" x2="647.7" y2="228.6" width="0.1524" layer="97"/>
 <wire x1="647.7" y1="228.6" x2="647.7" y2="213.36" width="0.1524" layer="97"/>
@@ -62167,12 +62166,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="647.7" y1="228.6" x2="431.8" y2="228.6" width="0.1524" layer="97"/>
 <wire x1="431.8" y1="327.66" x2="431.8" y2="228.6" width="0.1524" layer="97"/>
 <wire x1="431.8" y1="228.6" x2="431.8" y2="132.08" width="0.1524" layer="97"/>
-<text x="650.24" y="208.28" size="3.81" layer="97">Endstops</text>
+<text x="668.02" y="208.28" size="3.81" layer="97">Endstops</text>
 <wire x1="647.7" y1="162.56" x2="647.7" y2="116.84" width="0.1524" layer="97"/>
 <wire x1="711.2" y1="20.32" x2="647.7" y2="20.32" width="0.1524" layer="97"/>
 <wire x1="711.2" y1="20.32" x2="779.78" y2="20.32" width="0.1524" layer="97"/>
-<text x="276.86" y="322.58" size="3.81" layer="97">Atmega 2560</text>
-<text x="650.24" y="157.48" size="3.81" layer="97">Extension 2</text>
+<text x="320.04" y="322.58" size="3.81" layer="97">Atmega 2560</text>
+<text x="660.4" y="157.48" size="3.81" layer="97">Extension 2</text>
 <text x="642.62" y="-33.02" size="2.667" layer="97">Copyright 2013 - UltiMachine -Johnny,Britt,Dorothy,Lee,Bruce</text>
 <wire x1="647.7" y1="271.78" x2="779.78" y2="271.78" width="0.1524" layer="97"/>
 <wire x1="647.7" y1="213.36" x2="711.2" y2="213.36" width="0.1524" layer="97"/>
@@ -62187,7 +62186,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="391.16" y="-22.86" size="2.667" layer="91"> We may make changes to specifications and product descriptions at any time, without notice. The Customer must not rely on the absence or characteristics of any features</text>
 <text x="591.82" y="-33.02" size="2.667" layer="97">Open Source Hardware</text>
 <text x="435.356" y="274.066" size="2.667" layer="97" rot="R90">USB</text>
-<text x="487.68" y="322.58" size="2.1844" layer="97">32u2 Programmer</text>
+<text x="449.58" y="320.04" size="2.1844" layer="97">32u2 Programmer</text>
 <text x="754.38" y="266.7" size="1.9304" layer="97">Power Supply ON</text>
 <text x="535.94" y="7.62" size="1.778" layer="96">AD5206</text>
 <text x="695.96" y="312.42" size="1.778" layer="91">Optional 1K 
@@ -62196,31 +62195,46 @@ for Adj version</text>
 for Adj version</text>
 <text x="721.36" y="312.42" size="1.778" layer="91">Must cut jumper trace in R13</text>
 <text x="726.44" y="297.18" size="1.778" layer="91">NR8040T330M</text>
-<text x="657.86" y="261.62" size="1.778" layer="91">3SMAJ5938B-TP
-on motors for overvoltage cap @ 36V</text>
 <text x="607.06" y="309.88" size="2.54" layer="97">I-Coupler</text>
 <text x="662.94" y="45.72" size="1.778" layer="91">13</text>
 <text x="662.94" y="48.26" size="1.778" layer="91">2</text>
 <text x="662.94" y="50.8" size="1.778" layer="91">5</text>
 <text x="662.94" y="53.34" size="1.778" layer="91">4</text>
+<text x="744.22" y="256.54" size="1.778" layer="91">Insert jumper
+to disable
+on-board PSU</text>
 </plain>
 <instances>
-<instance part="X21" gate="-1" x="668.02" y="177.8"/>
+<instance part="X21" gate="-1" x="668.02" y="177.8" smashed="yes">
+<attribute name="NAME" x="670.56" y="177.038" size="1.524" layer="95"/>
+</instance>
 <instance part="X21" gate="-2" x="668.02" y="175.26"/>
 <instance part="X21" gate="-3" x="668.02" y="172.72"/>
-<instance part="X22" gate="-1" x="668.02" y="187.96"/>
+<instance part="X22" gate="-1" x="668.02" y="187.96" smashed="yes">
+<attribute name="NAME" x="670.56" y="187.198" size="1.524" layer="95"/>
+</instance>
 <instance part="X22" gate="-2" x="668.02" y="185.42"/>
 <instance part="X22" gate="-3" x="668.02" y="182.88"/>
-<instance part="X23" gate="-1" x="668.02" y="198.12"/>
+<instance part="X23" gate="-1" x="668.02" y="198.12" smashed="yes">
+<attribute name="NAME" x="670.56" y="197.358" size="1.524" layer="95"/>
+<attribute name="VALUE" x="659.638" y="169.037" size="1.778" layer="96"/>
+</instance>
 <instance part="X23" gate="-2" x="668.02" y="195.58"/>
 <instance part="X23" gate="-3" x="668.02" y="193.04"/>
-<instance part="X24" gate="-1" x="701.04" y="177.8"/>
+<instance part="X24" gate="-1" x="701.04" y="177.8" smashed="yes">
+<attribute name="NAME" x="703.58" y="177.038" size="1.524" layer="95"/>
+</instance>
 <instance part="X24" gate="-2" x="701.04" y="175.26"/>
 <instance part="X24" gate="-3" x="701.04" y="172.72"/>
-<instance part="X25" gate="-1" x="701.04" y="187.96"/>
+<instance part="X25" gate="-1" x="701.04" y="187.96" smashed="yes">
+<attribute name="NAME" x="703.58" y="187.198" size="1.524" layer="95"/>
+</instance>
 <instance part="X25" gate="-2" x="701.04" y="185.42"/>
 <instance part="X25" gate="-3" x="701.04" y="182.88"/>
-<instance part="X26" gate="-1" x="701.04" y="198.12"/>
+<instance part="X26" gate="-1" x="701.04" y="198.12" smashed="yes">
+<attribute name="NAME" x="703.58" y="197.358" size="1.524" layer="95"/>
+<attribute name="VALUE" x="686.562" y="169.037" size="1.778" layer="96"/>
+</instance>
 <instance part="X26" gate="-2" x="701.04" y="195.58"/>
 <instance part="X26" gate="-3" x="701.04" y="193.04"/>
 <instance part="X8" gate="-1" x="345.44" y="101.6"/>
@@ -62256,7 +62270,7 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="Q5" gate="G$1" x="546.1" y="152.4"/>
 <instance part="F3" gate="G$1" x="698.5" y="246.38" smashed="yes">
 <attribute name="NAME" x="690.88" y="243.84" size="1.4224" layer="104"/>
-<attribute name="VALUE" x="701.04" y="248.92" size="1.4224" layer="96"/>
+<attribute name="VALUE" x="693.42" y="248.92" size="1.4224" layer="96"/>
 </instance>
 <instance part="F2" gate="G$1" x="695.96" y="256.54" smashed="yes">
 <attribute name="NAME" x="688.34" y="254" size="1.4224" layer="104"/>
@@ -62376,21 +62390,21 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="GND8" gate="1" x="264.16" y="264.16" smashed="yes">
 <attribute name="VALUE" x="261.62" y="261.62" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="287.02" y="289.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="285.496" y="289.941" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="285.496" y="284.861" size="1.778" layer="96" rot="MR0"/>
+<instance part="C9" gate="G$1" x="284.48" y="289.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="284.099" y="293.116" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="289.179" y="290.576" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="U2" gate="1" x="337.82" y="241.3" smashed="yes">
 <attribute name="NAME" x="307.34" y="321.31" size="1.778" layer="95"/>
 <attribute name="VALUE" x="307.34" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="276.86" y="289.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="275.336" y="289.941" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="275.336" y="284.861" size="1.778" layer="96" rot="MR0"/>
+<instance part="C8" gate="G$1" x="274.32" y="289.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="273.939" y="293.116" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="279.019" y="290.576" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="C7" gate="G$1" x="294.64" y="289.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="293.116" y="289.941" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="293.116" y="284.861" size="1.778" layer="96" rot="MR0"/>
+<instance part="C7" gate="G$1" x="292.1" y="289.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="291.719" y="293.116" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="296.799" y="290.576" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="C1" gate="G$1" x="414.02" y="144.78" rot="MR0"/>
 <instance part="GND23" gate="1" x="414.02" y="137.16"/>
@@ -62500,8 +62514,8 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="R31" gate="G$1" x="632.46" y="160.02" rot="R90"/>
 <instance part="P+39" gate="VCC" x="632.46" y="167.64"/>
 <instance part="C57" gate="G$1" x="269.24" y="307.34" smashed="yes" rot="MR90">
-<attribute name="NAME" x="266.7" y="309.88" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="269.24" y="309.88" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="263.906" y="311.404" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="269.494" y="306.324" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C58" gate="G$1" x="269.24" y="317.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="266.7" y="320.04" size="1.778" layer="95" rot="MR90"/>
@@ -62575,7 +62589,10 @@ on motors for overvoltage cap @ 36V</text>
 <attribute name="NAME" x="727.456" y="244.475" size="1.778" layer="95"/>
 <attribute name="VALUE" x="727.456" y="239.649" size="1.778" layer="96"/>
 </instance>
-<instance part="C66" gate="G$1" x="690.88" y="233.68"/>
+<instance part="C66" gate="G$1" x="690.88" y="233.68" smashed="yes">
+<attribute name="NAME" x="691.896" y="234.315" size="1.778" layer="95"/>
+<attribute name="VALUE" x="693.293" y="224.282" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="GND84" gate="1" x="726.44" y="236.22" smashed="yes">
 <attribute name="VALUE" x="723.9" y="233.68" size="1.778" layer="96"/>
 </instance>
@@ -62612,7 +62629,7 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="P+12" gate="VCC" x="693.42" y="48.26"/>
 <instance part="GND4" gate="1" x="688.34" y="35.56"/>
 <instance part="P+60" gate="1" x="716.28" y="264.16" smashed="yes">
-<attribute name="VALUE" x="713.74" y="264.16" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="721.36" y="259.08" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X13" gate="G$1" x="680.72" y="137.16"/>
 <instance part="GND21" gate="1" x="673.1" y="223.52" smashed="yes">
@@ -62676,7 +62693,7 @@ on motors for overvoltage cap @ 36V</text>
 </instance>
 <instance part="X15" gate="-4" x="563.88" y="83.82" smashed="yes">
 <attribute name="NAME" x="567.436" y="83.185" size="1.778" layer="95"/>
-<attribute name="VALUE" x="563.626" y="80.01" size="1.778" layer="96"/>
+<attribute name="VALUE" x="566.166" y="80.01" size="1.778" layer="96"/>
 </instance>
 <instance part="X5" gate="-2" x="767.08" y="254" rot="R180"/>
 <instance part="X5" gate="-1" x="767.08" y="251.46" rot="R180"/>
@@ -62725,7 +62742,7 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="GND61" gate="1" x="685.8" y="223.52" smashed="yes">
 <attribute name="VALUE" x="683.26" y="218.44" size="1.778" layer="96"/>
 </instance>
-<instance part="LOGO1" gate="G$1" x="762" y="7.62"/>
+<instance part="LOGO1" gate="G$1" x="723.9" y="-2.54"/>
 <instance part="X39" gate="G$1" x="680.72" y="88.9"/>
 <instance part="P+6" gate="VCC" x="665.48" y="99.06"/>
 <instance part="GND62" gate="1" x="701.04" y="88.9" smashed="yes">
@@ -62739,8 +62756,8 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="P+7" gate="VCC" x="261.62" y="27.94"/>
 <instance part="R68" gate="G$1" x="373.38" y="20.32" rot="R90"/>
 <instance part="P+15" gate="VCC" x="769.62" y="261.62"/>
-<instance part="GND68" gate="1" x="287.02" y="279.4" smashed="yes">
-<attribute name="VALUE" x="284.48" y="276.86" size="1.778" layer="96"/>
+<instance part="GND68" gate="1" x="284.48" y="279.4" smashed="yes">
+<attribute name="VALUE" x="281.94" y="276.86" size="1.778" layer="96"/>
 </instance>
 <instance part="P+19" gate="1" x="444.5" y="45.72"/>
 <instance part="P+22" gate="1" x="332.74" y="43.18"/>
@@ -62779,17 +62796,23 @@ on motors for overvoltage cap @ 36V</text>
 <attribute name="VALUE" x="279.781" y="298.704" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="C52" gate="G$1" x="266.7" y="289.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="265.176" y="289.941" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="265.176" y="284.861" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="263.779" y="290.83" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="271.399" y="290.576" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="C53" gate="G$1" x="774.7" y="309.88" smashed="yes">
 <attribute name="NAME" x="774.065" y="303.276" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="775.589" y="306.324" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND94" gate="1" x="774.7" y="297.18"/>
-<instance part="C54" gate="G$1" x="708.66" y="233.68"/>
+<instance part="C54" gate="G$1" x="708.66" y="233.68" smashed="yes">
+<attribute name="NAME" x="709.676" y="234.315" size="1.778" layer="95"/>
+<attribute name="VALUE" x="711.835" y="225.044" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="C60" gate="G$1" x="736.6" y="246.38" rot="R90"/>
-<instance part="C62" gate="G$1" x="698.5" y="233.68"/>
+<instance part="C62" gate="G$1" x="698.5" y="233.68" smashed="yes">
+<attribute name="NAME" x="699.516" y="234.315" size="1.778" layer="95"/>
+<attribute name="VALUE" x="701.421" y="224.028" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="GND95" gate="1" x="708.66" y="223.52" smashed="yes">
 <attribute name="VALUE" x="706.12" y="218.44" size="1.778" layer="96"/>
 </instance>
@@ -62810,14 +62833,14 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="GND99" gate="1" x="500.38" y="137.16"/>
 <instance part="P+2" gate="VCC" x="777.24" y="231.14"/>
 <instance part="FID1" gate="G$1" x="734.06" y="-2.54"/>
-<instance part="FID3" gate="G$1" x="741.68" y="-2.54"/>
+<instance part="FID3" gate="G$1" x="739.14" y="-2.54"/>
 <instance part="D1" gate="G$1" x="594.36" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="592.455" y="208.534" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="597.789" y="208.534" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D3" gate="G$1" x="525.78" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="523.875" y="208.534" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="529.209" y="208.534" size="1.778" layer="96" rot="R90"/>
+<instance part="D3" gate="G$1" x="525.78" y="208.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="523.875" y="205.994" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="529.209" y="205.994" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D6" gate="G$1" x="457.2" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="460.883" y="208.534" size="1.778" layer="95" rot="R90"/>
@@ -62871,10 +62894,10 @@ on motors for overvoltage cap @ 36V</text>
 <attribute name="NAME" x="631.19" y="291.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="636.27" y="291.338" size="1.778" layer="96"/>
 </instance>
-<instance part="H1" gate="G$1" x="655.32" y="10.16"/>
-<instance part="H2" gate="G$1" x="655.32" y="2.54"/>
+<instance part="H1" gate="G$1" x="673.1" y="12.7"/>
+<instance part="H2" gate="G$1" x="673.1" y="2.54"/>
 <instance part="H4" gate="G$1" x="693.42" y="2.54"/>
-<instance part="H3" gate="G$1" x="693.42" y="10.16"/>
+<instance part="H3" gate="G$1" x="693.42" y="12.7"/>
 <instance part="C71" gate="G$1" x="345.44" y="119.38"/>
 <instance part="C72" gate="G$1" x="457.2" y="119.38"/>
 <instance part="C73" gate="G$1" x="566.42" y="119.38"/>
@@ -62943,7 +62966,10 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="GND32" gate="1" x="274.32" y="297.18" smashed="yes" rot="R270">
 <attribute name="VALUE" x="271.78" y="299.72" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="L2" gate="G$1" x="266.7" y="302.26" rot="R90"/>
+<instance part="L2" gate="G$1" x="266.7" y="302.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="271.78" y="300.99" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="266.7" y="306.07" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="C76" gate="G$1" x="576.58" y="58.42"/>
 <instance part="JP3" gate="G$1" x="688.34" y="309.88" rot="R180"/>
 <instance part="P+16" gate="1" x="576.58" y="63.5"/>
@@ -62975,7 +63001,7 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="GND65" gate="1" x="698.5" y="304.8"/>
 <instance part="D2" gate="G$1" x="718.82" y="256.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="721.106" y="254.635" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="726.186" y="259.969" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="721.106" y="252.349" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D8" gate="G$1" x="721.36" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="719.455" y="241.554" size="1.778" layer="95" rot="R90"/>
@@ -62999,7 +63025,7 @@ on motors for overvoltage cap @ 36V</text>
 <instance part="P+78" gate="1" x="500.38" y="182.88"/>
 <instance part="P+79" gate="1" x="510.54" y="175.26"/>
 <instance part="P+80" gate="1" x="525.78" y="218.44"/>
-<instance part="P+81" gate="1" x="553.72" y="220.98"/>
+<instance part="P+81" gate="1" x="553.72" y="218.44"/>
 <instance part="P+82" gate="1" x="594.36" y="218.44"/>
 <instance part="P+83" gate="1" x="622.3" y="220.98"/>
 <instance part="P+84" gate="1" x="566.42" y="172.72"/>
@@ -63238,21 +63264,21 @@ on motors for overvoltage cap @ 36V</text>
 <pinref part="U2" gate="1" pin="AGND"/>
 <wire x1="302.26" y1="297.18" x2="297.18" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="297.18" x2="297.18" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="281.94" x2="294.64" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="281.94" x2="294.64" y2="284.48" width="0.1524" layer="91"/>
-<junction x="294.64" y="281.94"/>
+<wire x1="297.18" y1="281.94" x2="292.1" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="281.94" x2="292.1" y2="284.48" width="0.1524" layer="91"/>
+<junction x="292.1" y="281.94"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="GND68" gate="1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="284.48" x2="276.86" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="284.48" x2="287.02" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="281.94" x2="287.02" y2="281.94" width="0.1524" layer="91"/>
-<junction x="287.02" y="281.94"/>
-<wire x1="287.02" y1="281.94" x2="276.86" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="284.48" x2="274.32" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="284.48" x2="284.48" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="281.94" x2="284.48" y2="281.94" width="0.1524" layer="91"/>
+<junction x="284.48" y="281.94"/>
+<wire x1="284.48" y1="281.94" x2="274.32" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="C52" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="281.94" x2="266.7" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="281.94" x2="266.7" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="281.94" x2="266.7" y2="284.48" width="0.1524" layer="91"/>
-<junction x="276.86" y="281.94"/>
+<junction x="274.32" y="281.94"/>
 </segment>
 <segment>
 <wire x1="302.26" y1="271.78" x2="294.64" y2="271.78" width="0.1524" layer="91"/>
@@ -63462,14 +63488,14 @@ on motors for overvoltage cap @ 36V</text>
 <segment>
 <pinref part="GND86" gate="1" pin="GND"/>
 <wire x1="688.34" y1="-2.54" x2="688.34" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="688.34" y1="2.54" x2="688.34" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="688.34" y1="10.16" x2="650.24" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="650.24" y1="10.16" x2="650.24" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="688.34" y1="2.54" x2="688.34" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="688.34" y1="12.7" x2="668.02" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="668.02" y1="12.7" x2="668.02" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="H1" gate="G$1" pin="P$1"/>
-<junction x="650.24" y="10.16"/>
+<junction x="668.02" y="12.7"/>
 <pinref part="H2" gate="G$1" pin="P$1"/>
 <pinref part="H3" gate="G$1" pin="P$1"/>
-<junction x="688.34" y="10.16"/>
+<junction x="688.34" y="12.7"/>
 <pinref part="H4" gate="G$1" pin="P$1"/>
 <junction x="688.34" y="2.54"/>
 </segment>
@@ -63766,10 +63792,10 @@ on motors for overvoltage cap @ 36V</text>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="276.86" y1="294.64" x2="287.02" y2="294.64" width="0.1524" layer="91"/>
-<junction x="276.86" y="294.64"/>
-<wire x1="287.02" y1="294.64" x2="287.02" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="292.1" x2="276.86" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="294.64" x2="284.48" y2="294.64" width="0.1524" layer="91"/>
+<junction x="274.32" y="294.64"/>
+<wire x1="284.48" y1="294.64" x2="284.48" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="292.1" x2="274.32" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="U2" gate="1" pin="VCC"/>
 <wire x1="299.72" y1="289.56" x2="302.26" y2="289.56" width="0.1524" layer="91"/>
@@ -63785,16 +63811,16 @@ on motors for overvoltage cap @ 36V</text>
 <wire x1="302.26" y1="281.94" x2="299.72" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="281.94" x2="299.72" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="289.56" x2="299.72" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="294.64" x2="294.64" y2="294.64" width="0.1524" layer="91"/>
-<junction x="287.02" y="294.64"/>
+<wire x1="299.72" y1="294.64" x2="292.1" y2="294.64" width="0.1524" layer="91"/>
+<junction x="284.48" y="294.64"/>
 <junction x="299.72" y="289.56"/>
-<wire x1="294.64" y1="294.64" x2="287.02" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="294.64" x2="284.48" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<junction x="294.64" y="294.64"/>
-<wire x1="294.64" y1="294.64" x2="294.64" y2="292.1" width="0.1524" layer="91"/>
+<junction x="292.1" y="294.64"/>
+<wire x1="292.1" y1="294.64" x2="292.1" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="C52" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="292.1" x2="266.7" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="294.64" x2="276.86" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="294.64" x2="274.32" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="VCC" pin="VCC"/>
 <wire x1="259.08" y1="294.64" x2="266.7" y2="294.64" width="0.1524" layer="91"/>
 <junction x="266.7" y="294.64"/>
@@ -63877,22 +63903,25 @@ on motors for overvoltage cap @ 36V</text>
 <segment>
 <pinref part="X32" gate="G$1" pin="1"/>
 <pinref part="P+50" gate="VCC" pin="VCC"/>
-<wire x1="751.84" y1="35.56" x2="746.76" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="746.76" y1="35.56" x2="746.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="751.84" y1="35.56" x2="751.84" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="751.84" y1="33.02" x2="746.76" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="33.02" x2="746.76" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="746.76" y1="38.1" x2="744.22" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X31" gate="G$1" pin="1"/>
 <pinref part="P+51" gate="VCC" pin="VCC"/>
-<wire x1="751.84" y1="58.42" x2="746.76" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="746.76" y1="58.42" x2="746.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="751.84" y1="58.42" x2="751.84" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="751.84" y1="55.88" x2="746.76" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="55.88" x2="746.76" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="746.76" y1="60.96" x2="744.22" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X20" gate="G$1" pin="1"/>
 <pinref part="P+52" gate="VCC" pin="VCC"/>
-<wire x1="751.84" y1="81.28" x2="746.76" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="746.76" y1="81.28" x2="746.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="751.84" y1="81.28" x2="751.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="751.84" y1="78.74" x2="746.76" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="78.74" x2="746.76" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="746.76" y1="83.82" x2="744.22" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -65846,7 +65875,7 @@ on motors for overvoltage cap @ 36V</text>
 <segment>
 <pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="551.18" y1="213.36" x2="553.72" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="553.72" y1="213.36" x2="553.72" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="213.36" x2="553.72" y2="215.9" width="0.1524" layer="91"/>
 <junction x="553.72" y="213.36"/>
 <pinref part="X36" gate="G$1" pin="2"/>
 <wire x1="553.72" y1="195.58" x2="553.72" y2="213.36" width="0.1524" layer="91"/>
@@ -65892,7 +65921,7 @@ on motors for overvoltage cap @ 36V</text>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="525.78" y1="215.9" x2="525.78" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="525.78" y1="215.9" x2="525.78" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="P+80" gate="1" pin="+12V2"/>
 </segment>
 <segment>
@@ -66356,7 +66385,6 @@ on motors for overvoltage cap @ 36V</text>
 <pinref part="X11" gate="-3" pin="1"/>
 <junction x="556.26" y="205.74"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="525.78" y1="208.28" x2="525.78" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="525.78" y1="205.74" x2="530.86" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
