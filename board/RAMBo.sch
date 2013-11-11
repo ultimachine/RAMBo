@@ -29509,7 +29509,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <smd name="6" x="2.4638" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
 <smd name="7" x="2.4638" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
 <smd name="8" x="2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="9" x="0" y="-0.0508" dx="2.1336" dy="2.9972" layer="1"/>
+<smd name="9" x="0" y="-0.0508" dx="2.1336" dy="2.9972" layer="1" stop="no" cream="no"/>
 <wire x1="-2.0066" y1="1.651" x2="-2.0066" y2="2.159" width="0" layer="51"/>
 <wire x1="-2.0066" y1="2.159" x2="-3.0988" y2="2.159" width="0" layer="51"/>
 <wire x1="-3.0988" y1="2.159" x2="-3.0988" y2="1.651" width="0" layer="51"/>
@@ -29553,7 +29553,105 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="21" curve="-180"/>
 <text x="-3.302" y="2.3368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-4.445" y="-5.4356" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+<text x="-2.1844" y="3.175" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="-1.0922" y="1.4732"/>
+<vertex x="1.0668" y="1.4732"/>
+<vertex x="1.0668" y="0.635"/>
+<vertex x="1.016" y="0.635" curve="90"/>
+<vertex x="0.635" y="1.016" curve="90"/>
+<vertex x="0.254" y="0.635"/>
+<vertex x="-0.254" y="0.635" curve="90"/>
+<vertex x="-0.635" y="1.016" curve="90"/>
+<vertex x="-1.016" y="0.635"/>
+<vertex x="-1.0922" y="0.635"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.0922" y="0.635"/>
+<vertex x="-1.016" y="0.635" curve="90"/>
+<vertex x="-0.635" y="0.254" curve="90"/>
+<vertex x="-0.254" y="0.635"/>
+<vertex x="0.254" y="0.635" curve="90"/>
+<vertex x="0.635" y="0.254" curve="90"/>
+<vertex x="1.016" y="0.635"/>
+<vertex x="1.0668" y="0.635"/>
+<vertex x="1.0668" y="0"/>
+<vertex x="0.381" y="0" curve="90"/>
+<vertex x="0" y="0.381" curve="90"/>
+<vertex x="-0.381" y="0"/>
+<vertex x="-1.0922" y="0"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.0922" y="0"/>
+<vertex x="-0.381" y="0" curve="90"/>
+<vertex x="0" y="-0.381" curve="90"/>
+<vertex x="0.381" y="0"/>
+<vertex x="1.0668" y="0"/>
+<vertex x="1.0668" y="-0.635"/>
+<vertex x="1.016" y="-0.635" curve="90"/>
+<vertex x="0.635" y="-0.254" curve="90"/>
+<vertex x="0.254" y="-0.635"/>
+<vertex x="-0.254" y="-0.635" curve="90"/>
+<vertex x="-0.635" y="-0.254" curve="90"/>
+<vertex x="-1.016" y="-0.635"/>
+<vertex x="-1.0922" y="-0.635"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.0922" y="-0.635"/>
+<vertex x="-1.016" y="-0.635" curve="90"/>
+<vertex x="-0.635" y="-1.016" curve="90"/>
+<vertex x="-0.254" y="-0.635"/>
+<vertex x="0.254" y="-0.635" curve="90"/>
+<vertex x="0.635" y="-1.016" curve="90"/>
+<vertex x="1.016" y="-0.635"/>
+<vertex x="1.0668" y="-0.635"/>
+<vertex x="1.0668" y="-1.5621"/>
+<vertex x="-1.0922" y="-1.5621"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.016" y="1.397"/>
+<vertex x="1.016" y="1.397"/>
+<vertex x="1.016" y="1.016"/>
+<vertex x="0.635" y="1.016" curve="90"/>
+<vertex x="0.254" y="0.635" curve="-180"/>
+<vertex x="-0.254" y="0.635" curve="90"/>
+<vertex x="-0.635" y="1.016"/>
+<vertex x="-1.016" y="1.016"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.016" y="-1.4732"/>
+<vertex x="-1.016" y="-1.4732"/>
+<vertex x="-1.016" y="-1.0922"/>
+<vertex x="-0.635" y="-1.0922" curve="90"/>
+<vertex x="-0.254" y="-0.7112" curve="-180"/>
+<vertex x="0.254" y="-0.7112" curve="90"/>
+<vertex x="0.635" y="-1.0922"/>
+<vertex x="1.016" y="-1.0922"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.016" y="0.3302"/>
+<vertex x="-0.8636" y="0.3302"/>
+<vertex x="-0.7874" y="0.254"/>
+<vertex x="-0.4318" y="0.254"/>
+<vertex x="-0.3556" y="0.1778"/>
+<vertex x="-0.3556" y="-0.1778"/>
+<vertex x="-0.4318" y="-0.254"/>
+<vertex x="-0.7874" y="-0.254"/>
+<vertex x="-0.889" y="-0.3556"/>
+<vertex x="-1.016" y="-0.3556"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.016" y="-0.3302"/>
+<vertex x="0.8636" y="-0.3302"/>
+<vertex x="0.7874" y="-0.254"/>
+<vertex x="0.4318" y="-0.254"/>
+<vertex x="0.3556" y="-0.1778"/>
+<vertex x="0.3556" y="0.1778"/>
+<vertex x="0.4318" y="0.254"/>
+<vertex x="0.7874" y="0.254"/>
+<vertex x="0.889" y="0.3556"/>
+<vertex x="1.016" y="0.3556"/>
+</polygon>
 </package>
 <package name="L2012C">
 <description>&lt;b&gt;INDUCTOR&lt;/b&gt;</description>
