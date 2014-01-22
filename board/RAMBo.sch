@@ -62131,7 +62131,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="530.86" y="114.3" size="3.81" layer="97">Z</text>
 <text x="308.61" y="44.45" size="3.81" layer="97">E0</text>
 <text x="419.1" y="45.72" size="3.81" layer="97">E1</text>
-<text x="251.46" y="330.2" size="6.4516" layer="97">RAMBo 1.2e</text>
+<text x="251.46" y="330.2" size="6.4516" layer="97">RAMBo 1.2g</text>
 <text x="518.16" y="322.58" size="3.81" layer="97">Atmega 32u2 USB</text>
 <text x="723.9" y="157.48" size="3.81" layer="97">I2C Expansion</text>
 <text x="261.62" y="154.94" size="3.81" layer="97">Atmega2560 Programmer</text>
@@ -62458,13 +62458,13 @@ on-board PSU</text>
 </instance>
 <instance part="U1" gate="G$1" x="541.02" y="266.7"/>
 <instance part="X17" gate="A" x="487.68" y="312.42"/>
-<instance part="Z1" gate="G$1" x="447.04" y="264.16" smashed="yes" rot="MR270">
-<attribute name="NAME" x="443.23" y="261.62" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="450.85" y="256.54" size="1.778" layer="96" rot="MR90"/>
+<instance part="Z1" gate="G$1" x="447.04" y="264.16" smashed="yes" rot="MR90">
+<attribute name="NAME" x="450.85" y="266.7" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="445.77" y="276.86" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="Z2" gate="G$1" x="457.2" y="264.16" smashed="yes" rot="MR270">
-<attribute name="NAME" x="453.39" y="261.62" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="459.74" y="250.952" size="1.778" layer="96" rot="MR90"/>
+<instance part="Z2" gate="G$1" x="457.2" y="264.16" smashed="yes" rot="MR90">
+<attribute name="NAME" x="461.01" y="266.7" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="454.66" y="277.368" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="RN5" gate="A" x="622.3" y="231.14" rot="R180"/>
 <instance part="RN5" gate="B" x="594.36" y="241.3" rot="R180"/>
@@ -65105,9 +65105,8 @@ on-board PSU</text>
 <pinref part="U2" gate="1" pin="(SDA/INT1)PD1"/>
 </segment>
 <segment>
-<wire x1="739.14" y1="132.08" x2="728.98" y2="132.08" width="0.1524" layer="91"/>
-<label x="728.98" y="135.255" size="1.778" layer="95"/>
-<wire x1="746.76" y1="132.08" x2="739.14" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="132.08" x2="728.98" y2="132.08" width="0.1524" layer="91"/>
+<label x="728.98" y="132.461" size="1.778" layer="95"/>
 <wire x1="746.76" y1="137.16" x2="746.76" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R44" gate="G$1" pin="1"/>
 <pinref part="X10" gate="-3" pin="S"/>
@@ -65123,7 +65122,7 @@ on-board PSU</text>
 </segment>
 <segment>
 <wire x1="728.98" y1="134.62" x2="739.14" y2="134.62" width="0.1524" layer="91"/>
-<label x="728.98" y="132.715" size="1.778" layer="95"/>
+<label x="728.98" y="135.001" size="1.778" layer="95"/>
 <wire x1="739.14" y1="137.16" x2="739.14" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R45" gate="G$1" pin="1"/>
 <pinref part="X10" gate="-4" pin="S"/>
@@ -65685,7 +65684,7 @@ on-board PSU</text>
 <segment>
 <wire x1="444.5" y1="279.4" x2="447.04" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="279.4" x2="464.82" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="447.04" y1="259.08" x2="447.04" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="269.24" x2="447.04" y2="279.4" width="0.1524" layer="91"/>
 <junction x="447.04" y="279.4"/>
 <label x="449.58" y="279.4" size="1.778" layer="95"/>
 <pinref part="X2" gate="G$1" pin="2"/>
@@ -65697,7 +65696,7 @@ on-board PSU</text>
 <segment>
 <wire x1="464.82" y1="276.86" x2="457.2" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="457.2" y1="276.86" x2="444.5" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="457.2" y1="259.08" x2="457.2" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="269.24" x2="457.2" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="271.78" x2="464.82" y2="276.86" width="0.1524" layer="91"/>
 <junction x="457.2" y="276.86"/>
 <label x="459.74" y="276.86" size="1.778" layer="95"/>
@@ -65709,10 +65708,10 @@ on-board PSU</text>
 <net name="USHIELD" class="2">
 <segment>
 <wire x1="436.88" y1="254" x2="436.88" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="457.2" y1="269.24" x2="457.2" y2="254" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="259.08" x2="457.2" y2="254" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="254" x2="449.58" y2="254" width="0.1524" layer="91"/>
 <wire x1="449.58" y1="254" x2="457.2" y2="254" width="0.1524" layer="91"/>
-<wire x1="447.04" y1="269.24" x2="447.04" y2="254" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="259.08" x2="447.04" y2="254" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="266.7" x2="439.42" y2="254" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="254" x2="447.04" y2="254" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="254" x2="436.88" y2="254" width="0.1524" layer="91"/>
