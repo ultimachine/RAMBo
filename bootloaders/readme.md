@@ -1,0 +1,1 @@
+Use https://github.com/arduino/Arduino-stk500v2-bootloader for the Atmega2560 bootloader
