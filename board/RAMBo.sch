@@ -32685,12 +32685,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <smd name="32" x="-1.75" y="2.4" dx="0.28" dy="0.8" layer="1" roundness="80" rot="R180" stop="no"/>
 <smd name="33" x="0" y="0" dx="3.465" dy="3.465" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
 <text x="-3" y="3.365" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3" y="-4.365" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<circle x="-2.55" y="2.55" radius="0.412309375" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<text x="-3" y="-5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<circle x="-3.185" y="3.185" radius="0.412309375" width="0.1524" layer="21"/>
 <polygon width="0.127" layer="29">
 <vertex x="-1.6256" y="1.6256"/>
 <vertex x="-0.9398" y="1.6256"/>
@@ -32920,7 +32916,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="2.1" y1="1.25" x2="2.65" y2="1.25" width="0.38" layer="29"/>
 <wire x1="2.1" y1="0.75" x2="2.65" y2="0.75" width="0.38" layer="29"/>
 <wire x1="-2.65" y1="1.75" x2="-2.1" y2="1.75" width="0.38" layer="29"/>
-<wire x1="-2.65" y1="1.75" x2="-2.1" y2="1.75" width="0.38" layer="29"/>
 <wire x1="-2.65" y1="1.25" x2="-2.1" y2="1.25" width="0.38" layer="29"/>
 <wire x1="-2.65" y1="0.75" x2="-2.1" y2="0.75" width="0.38" layer="29"/>
 <wire x1="2.1" y1="0.25" x2="2.65" y2="0.25" width="0.38" layer="29"/>
@@ -32941,6 +32936,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="0.75" y1="-2.65" x2="0.75" y2="-2.1" width="0.38" layer="29"/>
 <wire x1="1.25" y1="-2.65" x2="1.25" y2="-2.1" width="0.38" layer="29"/>
 <wire x1="1.75" y1="-2.65" x2="1.75" y2="-2.1" width="0.38" layer="29"/>
+<rectangle x1="-3.175" y1="2.54" x2="-2.54" y2="3.175" layer="21"/>
+<rectangle x1="2.54" y1="2.54" x2="3.175" y2="3.175" layer="21"/>
+<rectangle x1="2.54" y1="-3.175" x2="3.175" y2="-2.54" layer="21"/>
+<rectangle x1="-3.175" y1="-3.175" x2="-2.54" y2="-2.54" layer="21"/>
 </package>
 <package name="QSOP16">
 <description>&lt;b&gt;16-Lead Shrink Small Outline Package&lt;/b&gt; QSOP (RQ-16)&lt;p&gt;
