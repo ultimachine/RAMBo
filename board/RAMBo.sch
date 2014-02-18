@@ -19027,8 +19027,8 @@ grid 3.5 mm, diameter 8 mm</description>
 <wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="4.064" width="0.1524" layer="21"/>
-<pad name="-" x="1.778" y="0" drill="1" diameter="2.1336" shape="octagon"/>
-<pad name="+" x="-1.778" y="0" drill="1" diameter="2.1336"/>
+<pad name="-" x="1.778" y="0" drill="0.889" diameter="2.1336" shape="octagon"/>
+<pad name="+" x="-1.778" y="0" drill="0.889" diameter="2.1336"/>
 <text x="3.302" y="2.794" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
