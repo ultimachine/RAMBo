@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -62024,6 +62024,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+45" library="ultimachine" deviceset="+12V2" device=""/>
 <part name="P+46" library="ultimachine" deviceset="+12V2" device=""/>
 <part name="C63" library="rcl" deviceset="C-EU" device="C0402" value="4.7nF"/>
+<part name="Z3" library="resistor" deviceset="R-US_" device="R0603" value="CG0603MLC-05E"/>
+<part name="SUPPLY11" library="supply2" deviceset="GND1" device=""/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -63050,6 +63053,12 @@ on-board PSU</text>
 <attribute name="NAME" x="440.944" y="246.761" size="1.778" layer="95"/>
 <attribute name="VALUE" x="440.944" y="244.221" size="1.778" layer="96"/>
 </instance>
+<instance part="Z3" gate="G$1" x="490.22" y="238.76" smashed="yes" rot="MR0">
+<attribute name="NAME" x="487.68" y="242.57" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="477.012" y="236.22" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="472.44" y="236.22"/>
+<instance part="GND19" gate="1" x="502.92" y="236.22"/>
 </instances>
 <busses>
 </busses>
@@ -63772,6 +63781,11 @@ on-board PSU</text>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="680.72" y1="309.88" x2="675.64" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Z3" gate="G$1" pin="1"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="502.92" y1="238.76" x2="495.3" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -67168,6 +67182,11 @@ on-board PSU</text>
 <wire x1="599.44" y1="314.96" x2="599.44" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="596.9" y1="307.34" x2="599.44" y2="307.34" width="0.1524" layer="91"/>
 <junction x="599.44" y="307.34"/>
+</segment>
+<segment>
+<pinref part="Z3" gate="G$1" pin="2"/>
+<pinref part="SUPPLY11" gate="G$1" pin="GND1"/>
+<wire x1="485.14" y1="238.76" x2="472.44" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
