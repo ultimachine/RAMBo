@@ -217,7 +217,7 @@
 <text x="1.27" y="38.1" size="0.8128" layer="121" ratio="10">1</text>
 <text x="31.115" y="40.005" size="0.8128" layer="121" ratio="10">1</text>
 <text x="95.655" y="8.61" size="1.4224" layer="121" ratio="10">+</text>
-<text x="69.215" y="45.72" size="0.8128" layer="121">rev 1.3a</text>
+<text x="69.215" y="45.72" size="0.8128" layer="121">rev 1.3b</text>
 <text x="37.11" y="49.835" size="1.524" layer="121">U</text>
 <circle x="37.645" y="50.67" radius="1.0668" width="0.127" layer="121"/>
 <text x="60.198" y="44.2595" size="0.8128" layer="121">reprap.org/wiki/RAMBo</text>
@@ -9715,7 +9715,7 @@ design rules under a new name.</description>
 <via x="26.8351" y="14.2875" extent="1-16" drill="0.5" diameter="0.1016"/>
 <via x="24.5237" y="10.3251" extent="1-16" drill="0.5" diameter="0.1016"/>
 <via x="25.3365" y="10.3251" extent="1-16" drill="0.5" diameter="0.1016"/>
-<via x="26.9875" y="8.5725" extent="1-16" drill="0.5" diameter="0.1016"/>
+<wire x1="26.9875" y1="8.5725" x2="26.9875" y2="8.5725" width="0" layer="19" extent="1-16"/>
 <via x="35.9029" y="17.2847" extent="1-16" drill="0.5" diameter="0.1016"/>
 <via x="66.3067" y="17.3101" extent="1-16" drill="0.5" diameter="0.1016"/>
 <via x="57.5691" y="16.3703" extent="1-16" drill="0.5" diameter="0.1016"/>
