@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.635" unitdist="mm" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="2-GND" color="13" fill="3" visible="no" active="yes"/>
@@ -7730,16 +7730,16 @@ design rules under a new name.</description>
 </element>
 <element name="FID1" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="3.4925" y="87.122"/>
 <element name="FID3" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="99.2505" y="8.89"/>
-<element name="D1" library="ultimachine1" package="SMA-SM" value="B240A-13-F" x="29.21" y="75.565" smashed="yes" rot="R90">
+<element name="D1" library="ultimachine1" package="SMA-SM" value="SK310A-TP" x="29.21" y="75.565" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.46" y="76.549" size="0.8128" layer="25" ratio="10"/>
 </element>
-<element name="D3" library="ultimachine1" package="SMA-SM" value="B240A-13-F" x="19.05" y="75.565" smashed="yes" rot="R90">
+<element name="D3" library="ultimachine1" package="SMA-SM" value="SK310A-TP" x="19.05" y="75.565" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.205" y="78.835" size="0.8128" layer="25" ratio="10"/>
 </element>
-<element name="D6" library="ultimachine1" package="SMA-SM" value="B240A-13-F" x="9.525" y="75.565" smashed="yes" rot="R90">
+<element name="D6" library="ultimachine1" package="SMA-SM" value="SK310A-TP" x="9.525" y="75.565" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.9695" y="76.1805" size="0.8128" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="D10" library="ultimachine1" package="SMA-SM" value="B240A-13-F" x="66.9925" y="88.646" smashed="yes" rot="R270">
+<element name="D10" library="ultimachine1" package="SMA-SM" value="SK310A-TP" x="66.9925" y="88.646" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.5285" y="84.6135" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="U10" library="ultimachine" package="QSOP16" value="ADUM7441" x="32.258" y="50.8" smashed="yes" rot="R270">
