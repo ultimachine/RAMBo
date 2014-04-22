@@ -13883,13 +13883,13 @@ chip</description>
 <wire x1="1.473" y1="0.729" x2="1.473" y2="-0.729" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.729" x2="-1.473" y2="-0.729" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.729" x2="-1.473" y2="0.729" width="0.0508" layer="39"/>
-<smd name="1" x="-0.82" y="0" dx="0.79" dy="1.1" layer="1" roundness="40"/>
-<smd name="2" x="0.82" y="0" dx="0.79" dy="1.1" layer="1" roundness="40"/>
+<smd name="1" x="-0.68" y="0" dx="0.74" dy="1" layer="1" roundness="40"/>
+<smd name="2" x="0.68" y="0" dx="0.74" dy="1" layer="1" roundness="40"/>
 <text x="-0.889" y="0.889" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<rectangle x1="-0.16" y1="-0.4001" x2="0.16" y2="0.4001" layer="35"/>
 </package>
 <package name="R0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -15210,14 +15210,14 @@ chip</description>
 <wire x1="1.473" y1="0.729" x2="1.473" y2="-0.729" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.729" x2="-1.473" y2="-0.729" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.729" x2="-1.473" y2="0.729" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.8" y="0" dx="0.85" dy="1" layer="1" roundness="40"/>
-<smd name="2" x="0.8" y="0" dx="0.85" dy="1" layer="1" roundness="40"/>
+<wire x1="-0.48935" y1="0.3431" x2="0.483" y2="0.3431" width="0.1016" layer="51"/>
+<wire x1="-0.50205" y1="-0.34915" x2="0.737" y2="-0.34915" width="0.1016" layer="51"/>
+<smd name="1" x="-0.68" y="0" dx="0.74" dy="1" layer="1" roundness="40"/>
+<smd name="2" x="0.68" y="0" dx="0.74" dy="1" layer="1" roundness="40"/>
 <text x="-0.889" y="0.762" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
+<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="C0805">
