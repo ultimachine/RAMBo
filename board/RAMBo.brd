@@ -13,7 +13,7 @@
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="15-SUPPLY" color="11" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -181,7 +181,6 @@
 <text x="2.54" y="94.615" size="1.6764" layer="121" ratio="10">-</text>
 <text x="68.0615" y="31.968" size="1.6764" layer="121" ratio="10">+</text>
 <text x="65.585" y="31.9645" size="1.6764" layer="121" ratio="10">-</text>
-<text x="41.968" y="32.9175" size="0.8128" layer="121" ratio="10">1</text>
 <text x="45.9365" y="42.2525" size="0.8128" layer="121" ratio="10">1</text>
 <text x="97.468" y="48.8855" size="0.8128" layer="121" ratio="10" rot="R90">1</text>
 <text x="72.41" y="56.285" size="0.8128" layer="121" ratio="10">1</text>
@@ -10540,7 +10539,6 @@ design rules under a new name.</description>
 <vertex x="95.25" y="21.59"/>
 <vertex x="102.235" y="28.575"/>
 <vertex x="102.235" y="95.885"/>
-<vertex x="1.27" y="95.885"/>
 </polygon>
 <contactref element="X10" pad="1"/>
 <contactref element="X34" pad="1"/>
@@ -10697,7 +10695,6 @@ design rules under a new name.</description>
 <vertex x="3.81" y="9.525"/>
 <vertex x="2.54" y="10.795"/>
 <vertex x="2.54" y="17.78"/>
-<vertex x="2.54" y="17.78"/>
 <vertex x="2.54" y="28.575"/>
 <vertex x="3.175" y="29.21"/>
 <vertex x="88.9" y="29.21"/>
@@ -10707,7 +10704,6 @@ design rules under a new name.</description>
 <vertex x="96.8248" y="42.2402"/>
 <vertex x="97.155" y="41.91"/>
 <vertex x="97.155" y="41.275"/>
-<vertex x="98.425" y="40.005"/>
 <vertex x="98.425" y="40.005"/>
 <vertex x="102.235" y="36.195"/>
 </polygon>
@@ -10952,7 +10948,6 @@ design rules under a new name.</description>
 <vertex x="85.3694" y="19.558"/>
 <vertex x="85.344" y="19.5834"/>
 <vertex x="84.7598" y="19.5834"/>
-<vertex x="84.0486" y="20.2946"/>
 <vertex x="84.0486" y="20.2946"/>
 <vertex x="81.8642" y="20.2946"/>
 <vertex x="81.2546" y="19.685"/>
@@ -15063,7 +15058,7 @@ design rules under a new name.</description>
 <via x="52.2" y="53.6" extent="1-16" drill="0.381"/>
 <wire x1="52.2" y1="53.6" x2="53.715" y2="53.6" width="0.2032" layer="1"/>
 <wire x1="53.715" y1="53.6" x2="55.5164" y2="51.7986" width="0.2032" layer="1"/>
-<wire x1="55.5164" y1="51.7986" x2="55.5164" y2="50.42" width="0.2032" layer="1"/>
+<wire x1="55.5164" y1="51.7986" x2="55.5164" y2="50.42" width="0" layer="19" extent="1-16"/>
 <wire x1="40.005" y1="49.005" x2="44.6" y2="53.6" width="0.2032" layer="16"/>
 <wire x1="40.005" y1="49.005" x2="40.005" y2="46.5455" width="0.2032" layer="16"/>
 <wire x1="40.005" y1="46.5455" x2="42.291" y2="44.2595" width="0.2032" layer="16"/>
